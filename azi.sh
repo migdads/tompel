@@ -50,10 +50,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Kyt Project Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To Migdad Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${green}MYRIDWAN ${NC}${YELLOW}(${NC} ${green}Geo Project ${NC}${YELLOW})${NC}"
-echo -e "       Â© Recode By Geo Project ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "         Auther : ${green}Migdad ${NC}${YELLOW}(${NC} ${green}Gabut Project ${NC}${YELLOW})${NC}"
+echo -e "       Â© Recode By Migdad ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 5
@@ -188,7 +188,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="""""https://github.com/migdads/tompel/"tompel/"tompel/""/"
+    REPO="https://github.com/migdads/tompel/"
 
 ####
 start=$(date +%s)
@@ -368,7 +368,7 @@ resbot() {
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://github.com/migdads/tompel//bot/adminbot.zip
+wget https://github.com/migdads/tompel/bot/adminbot.zip
 unzip adminbot.zip
 chmod +x /usr/bin/*
 clear
@@ -376,16 +376,16 @@ pip3 install -r adminbot/requirements.txt
 }
 #DOMAIN
 res16() {
-wget https://github.com/migdads/tompel//ssh/cf2.sh && chmod +x cf2.sh
+wget https://github.com/migdads/tompel/ssh/cf2.sh && chmod +x cf2.sh
 clear
 }
 res1() {
-wget https://github.com/migdads/tompel//ssh/cf.sh && chmod +x cf.sh
+wget https://github.com/migdads/tompel/ssh/cf.sh && chmod +x cf.sh
 clear
 }
 #MENU
 res2() {
-wget https://github.com/migdads/tompel//menu/menu2.zip
+wget https://github.com/migdads/tompel/menu/menu2.zip
     unzip menu2.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
@@ -394,7 +394,7 @@ wget https://github.com/migdads/tompel//menu/menu2.zip
 }
 #MODULE XRAY
 res3() {
-REPO="""https://github.com/migdads/tompel/"tompel/"tompel/"
+REPO="https://github.com/migdads/tompel/"
 wget -O /etc/xray/config.json "${REPO}xray/config.json" >/dev/null 2>&1
 #wget -O /usr/local/bin/xray "${REPO}xray/xray.linux.64bit" >/dev/null 2>&1
 wget -O /etc/systemd/system/runn.service "${REPO}xray/runn.service" >/dev/null 2>&1
@@ -482,10 +482,10 @@ wget ${REPO}bbr.sh &&  chmod +x bbr.sh && ./bbr.sh
 }
 #WSEPRO
 res14() {
-wget -O /usr/bin/ws "https://github.com/migdads/tompel//ws/ws" >/dev/null 2>&1
-    wget -O /usr/bin/sysctl.conf "https://github.com/migdads/tompel//ws/sysctl.conf" >/dev/null 2>&1
-    wget -O /usr/bin/tun.conf "https://github.com/migdads/tompel//ws/tun.conf" >/dev/null 2>&1
-    wget -O /etc/systemd/system/ws.service "https://github.com/migdads/tompel//ws/ws.service" >/dev/null 2>&1
+wget -O /usr/bin/ws "https://github.com/migdads/tompel/ws/ws" >/dev/null 2>&1
+    wget -O /usr/bin/sysctl.conf "https://github.com/migdads/tompel/ws/sysctl.conf" >/dev/null 2>&1
+    wget -O /usr/bin/tun.conf "https://github.com/migdads/tompel/ws/tun.conf" >/dev/null 2>&1
+    wget -O /etc/systemd/system/ws.service "https://github.com/migdads/tompel/ws/ws.service" >/dev/null 2>&1
     
     chmod +x /etc/systemd/system/ws.service
     chmod +x /usr/bin/ws
@@ -498,14 +498,14 @@ systemctl start ws
 systemctl restart ws
 }
 res15() {
-wget https://github.com/migdads/tompel//ssh/udp
+wget https://github.com/migdads/tompel/ssh/udp
 chmod +x udp
 ./udp
 }
 # Fungsi input domain
 #
 base_package
-REPO="https://github.com/migdads/tompel//"
+REPO="https://github.com/migdads/tompel/"
 echo -e ""
 res17() {
 clear
