@@ -28,13 +28,13 @@ gem install lolcat
 #=================
 function LOGO() {
    echo -e "
-    =Œ================================================
- ====‚                                               =‚===€
- ====‚    $Green=Œ===¬ =¬=Œ=¬==Œ===Œ===Œ===¬===¬=Œ===Œ=¬=  =¬  =¬=Œ=¬==Œ==$NC   =‚===€
- ====‚    $Green=œ==¤=‚ =‚ =‚ =‚ =‚=”===‚  =œ=¬=˜=‚=œ==˜ =‚   =‚  =‚ =‚ =œ=¤ $NC   =‚===€
- ====‚    $Green=´ =´=”==˜ =´ =”==˜=”==˜=”==˜=´=”==´=´   =´   =´==˜=´ =´ =”==˜$NC   =‚===€
-    =‚    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/migdads$NC     =‚
-    =”================================================˜
+    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+ â”€â”€â”€â”‚                                               â”‚â”€â”€â”€
+ â”€â”€â”€â”‚    $Greenâ”Œâ”€â”â”¬ â”¬â”Œâ”¬â”â”Œâ”€â”â”Œâ”€â”â”Œâ”€â”â”¬â”€â”â”¬â”Œâ”€â”â”Œâ”¬â”  â”¬  â”¬â”Œâ”¬â”â”Œâ”€â”$NC   â”‚â”€â”€â”€
+ â”€â”€â”€â”‚    $Greenâ”œâ”€â”¤â”‚ â”‚ â”‚ â”‚ â”‚â””â”€â”â”‚  â”œâ”¬â”˜â”‚â”œâ”€â”˜ â”‚   â”‚  â”‚ â”‚ â”œâ”¤ $NC   â”‚â”€â”€â”€
+ â”€â”€â”€â”‚    $Greenâ”´ â”´â””â”€â”˜ â”´ â””â”€â”˜â””â”€â”˜â””â”€â”˜â”´â””â”€â”´â”´   â”´   â”´â”€â”˜â”´ â”´ â””â”€â”˜$NC   â”‚â”€â”€â”€
+    â”‚    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/kytxz$NC     â”‚
+    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
          ${RED}Autoscript xray vpn lite (multi port)${FONT}    
 ${RED}Make sure the internet is smooth when installing the script${FONT}
         "
@@ -50,10 +50,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Migdad Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To Kyt Project Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${green}Migdad ${NC}${YELLOW}(${NC} ${green}Gabut Project ${NC}${YELLOW})${NC}"
-echo -e "       Â© Recode By Migdad ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "         Auther : ${green}MYRIDWAN ${NC}${YELLOW}(${NC} ${green}Geo Project ${NC}${YELLOW})${NC}"
+echo -e "       Â© Recode By Geo Project ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 5
@@ -72,18 +72,18 @@ else
 fi
 }
   # // Banner
-#echo -e "${RED}â—‡==============================================â—‡${NC}"
+#echo -e "${RED}â—‡â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â—‡${NC}"
 #echo -e "  Welcome To MyridTunnel Project Script Manager ${BLUE}(${NC}${BLUE} Last Update Edition ${NC}${BLUE})${NC}"
 #echo -e "     This Will Quick Setup VPN Server On Your Server"
 #echo -e "         Auther : ${BLUE}MYRID ${NC}${BLUE}(${NC} ${BLUE} MyridTunnel Project ${NC}${BLUE})${NC}"
 #echo -e "       Â© Recode By MyridTunnel Project ${BLUE}(${NC} 2023 ${BLUE})${NC}"
-#echo -e "${RED}â—‡==============================================â—‡${NC}"
+#echo -e "${RED}â—‡â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â—‡${NC}"
 #echo ""
 #sleep 3
 ##
-echo -e  "${REDBG}=Œ===========================================${NC}"
-echo -e  "${REDBG}=‚              INPUT YOUR NAME             =‚${NC}"
-echo -e  "${REDBG}=”===========================================˜${NC}"
+echo -e  "${REDBG}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e  "${REDBG}â”‚              INPUT YOUR NAME             â”‚${NC}"
+echo -e  "${REDBG}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 echo " "
 until [[ $name =~ ^[a-zA-Z0-9_.-]+$ ]]; do
 read -rp "Masukan Nama Kamu Disini tanpa spasi : " -e name
@@ -95,7 +95,6 @@ clear
 author=$(cat /etc/profil)
 echo ""
 echo ""
-
 
 ##IZIN IP DAN TRIAL SC 
 # // Checking Os Architecture
@@ -153,7 +152,7 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
+username="admin"
 echo "$username" >/usr/bin/user
 expx="2999-12-12"
 echo "$expx" >/usr/bin/e
@@ -179,7 +178,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1="2999-12-12"
+Exp1="2099-12-12"
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -200,9 +199,9 @@ function print_ok() {
     echo -e "${OK} ${BLUE} $1 ${FONT}"
 }
 function print_install() {
-echo -e "${tyblue}=Œ===========================================${NC}"
-echo -e "${tyblue}=‚ ðŸŒ¿ $1 ${FONT} ${NC}"
-echo -e "${tyblue}=”===========================================˜${NC}"
+echo -e "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e "${tyblue}â”‚ ðŸŒ¿ $1 ${FONT} ${NC}"
+echo -e "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
     sleep 2
 }
 
@@ -212,9 +211,9 @@ function print_error() {
 
 function print_success() {
     if [[ 0 -eq $? ]]; then
-        echo -e "${tyblue}=Œ===========================================${NC}"
-        echo -e "${tyblue}=‚ ðŸŒ¿ $1 BERHASIL DIPASANG ${NC}"
-        echo -e "${tyblue}=”===========================================˜${NC}"
+        echo -e "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+        echo -e "${tyblue}â”‚ ðŸŒ¿ $1 BERHASIL DIPASANG ${NC}"
+        echo -e "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
         sleep 2
     fi
 }
@@ -483,7 +482,7 @@ wget ${REPO}bbr.sh &&  chmod +x bbr.sh && ./bbr.sh
 #WSEPRO
 res14() {
 wget -O /usr/bin/ws "https://raw.githubusercontent.com/migdads/tompel/main/ws/ws" >/dev/null 2>&1
-    wget -O /usr/bin/sysctl.conf "https://raw.githubusercontent.com/migdads/tompel/main/ws/sysctl.conf" >/dev/null 2>&1
+    wget -O /usr/bin/sysctl.conf "https://abc.xcodehoster.com/ws/sysctl.conf" >/dev/null 2>&1
     wget -O /usr/bin/tun.conf "https://raw.githubusercontent.com/migdads/tompel/main/ws/tun.conf" >/dev/null 2>&1
     wget -O /etc/systemd/system/ws.service "https://raw.githubusercontent.com/migdads/tompel/main/ws/ws.service" >/dev/null 2>&1
     
@@ -512,17 +511,17 @@ clear
 apt install jq curl -y
 }
 fun_bar 'res17'
-echo -e "${tyblue}=Œ===========================================${NC}"
-echo -e "${tyblue}=‚ \033[1;37mPlease select a your Choice to Set Domain${tyblue}=‚${NC}"
-echo -e "${tyblue}=”===========================================˜${NC}"
-echo -e "${tyblue}=Œ===========================================${NC}"
-echo -e "${tyblue}=‚  [ 1 ]  \033[1;37mGunakan Domain Sendiri/Domainmu       ${NC}"
-echo -e "${tyblue}=‚  "                                        
-echo -e "${tyblue}=‚  [ 2 ]  \033[1;37mGunakan Domain Dari SC (myridtunnel.my.id)     ${NC}"
-echo -e "${tyblue}=‚     "                                     
-echo -e "${tyblue}=‚  [ 3 ]  \033[1;37mGunakan Domain Dari SC (xpro.biz.id)     ${NC}"
-echo -e "${tyblue}=‚     "                                     
-echo -e "${tyblue}=”===========================================˜${NC}"
+echo -e "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e "${tyblue}â”‚ \033[1;37mPlease select a your Choice to Set Domain${tyblue}â”‚${NC}"
+echo -e "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
+echo -e "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e "${tyblue}â”‚  [ 1 ]  \033[1;37mGunakan Domain Sendiri/Domainmu       ${NC}"
+echo -e "${tyblue}â”‚  "                                        
+echo -e "${tyblue}â”‚  [ 2 ]  \033[1;37mGunakan Domain Dari SC (myridtunnel.my.id)     ${NC}"
+echo -e "${tyblue}â”‚     "                                     
+echo -e "${tyblue}â”‚  [ 3 ]  \033[1;37mGunakan Domain Dari SC (xpro.biz.id)     ${NC}"
+echo -e "${tyblue}â”‚     "                                     
+echo -e "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 read -p "   Please select numbers 1-3 or Any Button(Random) : " host
 echo ""
 if [[ $host == "1" ]]; then
@@ -531,21 +530,21 @@ read -p "   Subdomain: " host1
 echo "IP=" >> /var/lib/kyt/ipvps.conf
 echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
-echo -e  "${tyblue}=Œ===========================================${NC}"
-echo -e  "${tyblue}=‚              \033[1;37mTERIMA KASIH                ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚                \033[1;37mDARI SAYA                 ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=”===========================================˜${NC}"
+echo -e  "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e  "${tyblue}â”‚              \033[1;37mTERIMA KASIH                ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚                \033[1;37mDARI SAYA                 ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 echo ""
 elif [[ $host == "2" ]]; then
 #install cf
 fun_bar 'res1'
 ./cf.sh
-echo -e  "${tyblue}=Œ===========================================${NC}"
-echo -e  "${tyblue}=‚              \033[1;37mTERIMA KASIH                ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚                \033[1;37mDARI SAYA                 ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=”===========================================˜${NC}"
+echo -e  "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e  "${tyblue}â”‚              \033[1;37mTERIMA KASIH                ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚                \033[1;37mDARI SAYA                 ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 echo " "
 rm -f /root/cf.sh
 clear
@@ -554,11 +553,11 @@ elif [[ $host == "3" ]]; then
 #install cf
 fun_bar 'res16'
 ./cf2.sh
-echo -e  "${tyblue}=Œ===========================================${NC}"
-echo -e  "${tyblue}=‚              \033[1;37mTERIMA KASIH                ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚                \033[1;37mDARI SAYA                 ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=”===========================================˜${NC}"
+echo -e  "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e  "${tyblue}â”‚              \033[1;37mTERIMA KASIH                ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚                \033[1;37mDARI SAYA                 ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 echo " "
 rm -f /root/cf2.sh
 clear
@@ -969,7 +968,7 @@ echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/kyt.txt"@g' /etc/default/dropbear
 
 # Ganti Banner
-wget -O /etc/kyt.txt "https://abc.xcodehoster.com/ssh/issue.net"
+wget -O /etc/kyt.txt "${REPO}ssh/issue.net"
 print_success "Fail2ban"
 }
 
@@ -1206,47 +1205,47 @@ echo " Succes At Registrasi" | tee -a log-install.txt
 echo "    VPS INFO" | tee -a log-install.txt
 pth="\033[1;37m"
 clear
-echo -e "${tyblue} =Œ===========================================\033[0m"
-echo -e "${tyblue} =‚${pth}            \033[0;36mPORT SERVICE INFO\033[0m             ${tyblue}|\033[0m"
-echo -e "${tyblue} =”===========================================˜\033[0m"
-echo -e "${tyblue}=Œ=============================================="
-echo -e "${tyblue}=‚${pth}       >>> Service & Port                    ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Open SSH                : 443, 80, 22   ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Dropbear                : 443, 109, 143 ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Dropbear Websocket      : 443, 109      ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - SSH Websocket SSL       : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - SSH Websocket           : 80            ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - OpenVPN SSL             : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - OpenVPN Websocket SSL   : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - OpenVPN TCP             : 443, 1194     ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - OpenVPN UDP             : 2200          ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Nginx Webserver         : 443, 80, 81   ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Haproxy Loadbalancer    : 443, 80       ${tyblue}=‚${NC}"
-#echo -e "${tyblue}=‚${pth}   - DNS Server              : 443, 53,      ${tyblue}=‚${NC}"
-#echo -e "${tyblue}=‚${pth}   - DNS Client              : 443, 88       ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - OpenVPN Websocket SSL   : 443           ${tyblue}=‚${NC}"
-#echo -e "${tyblue}=‚${pth}   - XRAY DNS (SLOWDNS)      : 443, 53       ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vmess TLS          : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vmess gRPC         : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vmess None TLS     : 80            ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vless TLS          : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vless gRPC         : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - XRAY Vless None TLS     : 80            ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Trojan gRPC             : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Trojan WS               : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - Shadowsocks WS          : 443           ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - BadVPN 1                : 7100          ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - BadVPN 2                : 7200          ${tyblue}=‚${NC}"
-echo -e "${tyblue}=‚${pth}   - BadVPN 3                : 7300          ${tyblue}=‚${NC}"
-#echo -e "${tyblue}=‚${pth}   - Proxy Squid             : 3128          ${tyblue}=‚${NC}"
-echo -e "${tyblue}=”==============================================˜"
+echo -e "${tyblue} â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”\033[0m"
+echo -e "${tyblue} â”‚${pth}            \033[0;36mPORT SERVICE INFO\033[0m             ${tyblue}|\033[0m"
+echo -e "${tyblue} â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜\033[0m"
+echo -e "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”"
+echo -e "${tyblue}â”‚${pth}       >>> Service & Port                    ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Open SSH                : 443, 80, 22   ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Dropbear                : 443, 109, 143 ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Dropbear Websocket      : 443, 109      ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - SSH Websocket SSL       : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - SSH Websocket           : 80            ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - OpenVPN SSL             : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - OpenVPN Websocket SSL   : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - OpenVPN TCP             : 443, 1194     ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - OpenVPN UDP             : 2200          ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Nginx Webserver         : 443, 80, 81   ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Haproxy Loadbalancer    : 443, 80       ${tyblue}â”‚${NC}"
+#echo -e "${tyblue}â”‚${pth}   - DNS Server              : 443, 53,      ${tyblue}â”‚${NC}"
+#echo -e "${tyblue}â”‚${pth}   - DNS Client              : 443, 88       ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - OpenVPN Websocket SSL   : 443           ${tyblue}â”‚${NC}"
+#echo -e "${tyblue}â”‚${pth}   - XRAY DNS (SLOWDNS)      : 443, 53       ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vmess TLS          : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vmess gRPC         : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vmess None TLS     : 80            ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vless TLS          : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vless gRPC         : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - XRAY Vless None TLS     : 80            ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Trojan gRPC             : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Trojan WS               : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - Shadowsocks WS          : 443           ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - BadVPN 1                : 7100          ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - BadVPN 2                : 7200          ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â”‚${pth}   - BadVPN 3                : 7300          ${tyblue}â”‚${NC}"
+#echo -e "${tyblue}â”‚${pth}   - Proxy Squid             : 3128          ${tyblue}â”‚${NC}"
+echo -e "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜"
 echo ""
 sudo hostnamectl set-hostname $username
-echo -e  "${tyblue}=Œ===========================================${NC}"
-echo -e  "${tyblue}=‚              \033[1;37mTERIMA KASIH                ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=‚                \033[1;37mDARI SAYA                 ${tyblue}=‚${NC}"
-echo -e  "${tyblue}=”===========================================˜${NC}"
+echo -e  "${tyblue}â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${NC}"
+echo -e  "${tyblue}â”‚              \033[1;37mTERIMA KASIH                ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â”‚                \033[1;37mDARI SAYA                 ${tyblue}â”‚${NC}"
+echo -e  "${tyblue}â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${NC}"
 echo " "
 sleep 1
 echo "" | tee -a log-install.txt
